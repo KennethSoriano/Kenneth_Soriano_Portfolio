@@ -4,6 +4,7 @@ import Favorite from '../assets/projects/FavoritePlaces.jpg'
 import gpt3 from '../assets/projects/gpt3.png'
 import snapgram from '../assets/projects/snapgram.png'
 import fitnessApp from '../assets/projects/fitnessApp.png'
+import Snake from '../assets/projects/snake.png'
 
 export const data=[
     {
@@ -29,20 +30,27 @@ export const data=[
     },
     {
         id:4,
+        name:"Snake",
+        image:Snake,
+        github:"https://github.com/KennethSoriano/snake",
+        live:"https://kss14.itch.io/snake",
+    },
+    {
+        id:5,
         name:"Favorite Places Mobile App",
         image:Favorite,
         github:"https://github.com/KennethSoriano/FavoriteLocations",
         live:"https://github.com/KennethSoriano/FavoriteLocations",
     },
     {
-        id:5,
+        id:6,
         name:"GPT-3",
         image:gpt3,
         github:"https://github.com/KennethSoriano/gpt3",
         live:"https://gpt3project.com/",
     },
     {
-        id:6,
+        id:7,
         name:"fitness App",
         image:fitnessApp,
         github:"https://github.com/KennethSoriano/fitness_app",
