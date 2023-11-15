@@ -5,6 +5,7 @@ import gpt3 from '../assets/projects/gpt3.png'
 import snapgram from '../assets/projects/snapgram.png'
 import fitnessApp from '../assets/projects/fitnessApp.png'
 import Snake from '../assets/projects/snake.png'
+import Prompt from '../assets/projects/Promptopia.png'
 
 export const data=[
     {
@@ -27,6 +28,13 @@ export const data=[
         image:BankApp,
         github:"https://github.com/KennethSoriano/modern_bank_app.git",
         live:"https://modern-bank-app-14017.netlify.app/",
+    },
+    {
+        id:3.5,
+        name:"Promptopia",
+        image:Prompt,
+        github:"https://github.com/KennethSoriano/ai_prompts",
+        live:"https://promptopia-8h529e0xy-kenneths-projects-a82ee88f.vercel.app/",
     },
     {
         id:4,
